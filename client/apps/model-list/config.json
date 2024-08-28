@@ -1,0 +1,12 @@
+{
+  "script": "model-list/ModelList",
+  "title": "MODEL_LIST",
+  "route": "model-list",
+  "localePath": "locale/",
+  "dependencies": {
+    "@eui/component": "0.6.x",
+    "@eui/lit-component": "0.6.x",
+    "@eui/app": "0.6.x"
+  },
+  "components": {}
+}

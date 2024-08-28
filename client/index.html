@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/container.shared.css" media="screen" />
+    <script>
+      var isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+      var isEdge = /Edge/.test(navigator.userAgent);
+      if (isIE11 || isEdge) {
+        window.location = 'browser.support.html';
+      }
+    </script>
+  </head>
+
+  <body class="level-0 light">
+    <script src="config/defaults.js"></script>
+    <script src="polyfills/webcomponents-lite.js"></script>
+    <script src="libs/system.js"></script>
+    <script src="libs/@eui/container/0/eui-container-umd.js"></script>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+:host {
+  width: 20%;
+  margin: calc(var(--space-xl) * -1) 0 calc(var(--space-xl) * -1) calc(var(--space-xl) * -1);
+  padding: var(--space-xl);
+  border-right: 3px var(--layer1) solid;
+}

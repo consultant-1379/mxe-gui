@@ -1,0 +1,10 @@
+{
+  "CONTAINER_TITLE": "Machine Learning Execution Environment",
+  "CONTAINER_TITLE_SHORT": "MXE",
+  "MENU_TITLE": "Menu",
+  "MENU": {
+    "DASHBOARD": "Dashboard",
+    "MODEL_LIST": "Model List",
+    "FLOW_CATALOGUE": "Flow Catalogue"
+  }
+}

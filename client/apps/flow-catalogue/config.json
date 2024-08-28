@@ -1,0 +1,12 @@
+{
+  "script": "flow-catalogue/FlowCatalogue",
+  "title": "FLOW_CATALOGUE",
+  "route": "flow-catalogue",
+  "localePath": "locale/",
+  "dependencies": {
+    "@eui/component": "0.6.x",
+    "@eui/lit-component": "0.6.x",
+    "@eui/app": "0.6.x"
+  },
+  "components": {}
+}

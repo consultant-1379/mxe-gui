@@ -1,0 +1,46 @@
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.content {
+  text-align: center;
+  margin: 24px 0 24px 0;
+}
+
+.model-logo {
+  max-width: 100%;
+}
+
+.model-card {
+  min-height: 218px;
+}
+
+.model-card .text {
+  display: none;
+}
+
+.model-card.packaging {
+  background: rgba(12, 12, 12, 0.6);
+}
+
+.model-card.packaging .content {
+  color: var(--text);
+}
+
+.model-card.packaging .text {
+  display: block;
+  color: var(--white);
+}
+
+.model-card.packaging .action {
+  display: none;
+}
+
+.model-card.packaging .content .model-logo {
+  margin-bottom: 16px;
+  animation: rotating 10s linear infinite;
+}
